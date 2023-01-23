@@ -20,7 +20,7 @@ const MobileNav = ({ setNavMobile }) => {
           <li className="text-md">tv shows</li>
         </Link>
 
-        <Link href="/movies" onClick={() => setNavMobile(false)}>
+        <Link href="/allmovies" onClick={() => setNavMobile(false)}>
           <li className="text-md">movies</li>
         </Link>
 
