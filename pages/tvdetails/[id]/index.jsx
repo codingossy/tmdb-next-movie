@@ -23,7 +23,7 @@ const SingleTvCard = ({ TvShowDetails }) => {
 
           <div className="w-full capitalize">
             <h4 className="my-4 text-2xl font-semibold">
-              {TvShowDetails.name}
+              {TvShowDetails?.name}
             </h4>
             <p className="text-gray-600 text-sm mb-5">
               Release Date:
