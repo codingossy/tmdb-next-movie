@@ -37,7 +37,7 @@ const SingleTvCard = ({ TvShowDetails }) => {
               <p>status: {TvShowDetails.status}</p>
               <p>last air date: {TvShowDetails.last_air_date}</p>
               <p>Type: {TvShowDetails.type}</p>
-              <p>genre: {TvShowDetails.genres[0].name}</p>
+              <p>genre: {TvShowDetails.genres[0]?.name}</p>
               <p>genre: {TvShowDetails.genres[1]?.name}</p>
               <p>genre: {TvShowDetails.genres[2]?.name}</p>
 
